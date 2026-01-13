@@ -2,9 +2,18 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>
-      Navbar
-    </div>
+      <header className="h-16 bg-blue-600 flex px-20 items-center justify-between text-white">
+          <div className='text-xl font-bold'>Logo</div>
+          <ul className='flex space-x-8'>
+              <li>Home</li>
+              <li>About</li>
+              <li>Contact</li>
+          </ul>
+          <div className=' flex gap-4'>
+            <button className='py-2 px-6 bg-gray-400 text-white rounded-lg hover:bg-gray-500 transition-all duration-200'>Login</button>
+              <button className='py-2 px-6 bg-gray-400 text-white rounded-lg hover:bg-gray-500 transition-all duration-200'>Sign Up</button>
+          </div>
+    </header>
   )
 }
 
