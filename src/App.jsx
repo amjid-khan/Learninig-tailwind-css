@@ -10,7 +10,6 @@ import Contact from './Pages/Contact';
 const App = () => {
   return (
     <Router>
-      {/* Navbar Routes ke bahar rakho */}
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
